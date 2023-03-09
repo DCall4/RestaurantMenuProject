@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+#content {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Images/DesertTree.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+
+}
+
+.header {
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(245, 158, 11, .4);
+    position: fixed;
+    top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    height: 1.75vh;
+    width: 100vw;
+    background-color: rgba(245, 158, 11, .4);
+    position: fixed;
+    bottom: 2vh;
+    color: #fffbeb;
+    text-shadow: 3px 3px 3px #78350f;
+    padding-left: 1vw;
+}
+
+.cactusImage,
+.bullSkullImage,
+.cowBoyImage {
+    height: 10vh;
+    margin-top: 1vh;
+}
+
+.tabText {
+    text-align: center;
+    font-size: 25px;
+    color: #fffbeb;
+    text-shadow: 3px 3px 3px #78350f;
+}
+
+.titleText {
+    text-align: center;
+    font-size: 60px;
+    color: #fffbeb;
+    text-shadow: 3px 3px 3px #78350f;
+}
+
+.mainContent {
+    height: 65vh;
+    width: 93vw;
+    position: fixed;
+    top: 22vh;
+    margin: 15px;
+}
+
+.menuItemDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.menuCard {
+    height: 200px;
+    background-color: rgba(146, 64, 14, 0.4);
+    border-radius: 10px;
+    display: flex;
+}
+
+.menuImage {
+    height: 10vh;
+    align-self: center;
+    margin: 1vh;
+}
+
+.menuText {
+    font-size: 25px;
+    align-self: center;
+    color: #fffbeb;
+    text-shadow: 1px 1px 1px #78350f;
+    margin: 1vh;
+}
+
+.aboutText {
+    font-size: 35px;
+    align-self: center;
+    color: #fffbeb;
+    text-shadow: 2px 2px 2px #78350f;
+    margin: 1vh;
+}
